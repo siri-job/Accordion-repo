@@ -1,0 +1,41 @@
+body{
+    width: 100vw; height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 100vw; height: 100vh;
+}
+
+.heading{
+    text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordian-item {
+    width: 50%; cursor: pointer;
+    background-color: rgb(62, 111, 100); color: white;
+    text-align: center; margin-bottom: 10px;
+    position: relative; right: -25%; bottom: -5%;
+}
+
+.accordian-item:hover{
+    background-color:rgb(38, 63, 58); 
+    transition: background-color 0.3s ease;
+}
+
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold; font-family: cursive;
+    padding: 5px;
+}
+
+.answer {
+    display: none; padding: 5px;
+    font-family: monospace; text-align: left;
+}
+
+.accordian-item .answer.active {
+    display: block; align-items: flex-start;
+}
