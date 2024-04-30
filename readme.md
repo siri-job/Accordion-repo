@@ -10,7 +10,7 @@ This is a simple accordion FAQ web page built using HTML, CSS, and JavaScript. I
 
 ## Demo
 
-You can see a live demo of this project [here]().
+You can see a live demo of this project [here](https://siri-job.github.io/Accordion-repo/).
 
 ## Features
 
@@ -24,3 +24,5 @@ You can see a live demo of this project [here]().
 - CSS
 - JavaScript
 
+## Screenshot
+ ![screenshot](./image/screenshot.jpeg)
